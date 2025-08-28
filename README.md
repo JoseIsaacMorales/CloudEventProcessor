@@ -4,7 +4,9 @@ Python VS Code system that processes files in S3, logs events in DynamoDB, and s
 Files are uploaded to S3 from Python with VS Code.
 The lambda is coded so that every time a file is uploaded, it enters the DynamoDB database and creates an alert: ![DynamoDB](DynamoDB.png)
 
-That can be seen in CloudWatch ![Cloud Watch](CloudWatch1.png)
+That can be seen in CloudWatch: ![Cloud Watch1](CloudWatch1.png)
 
-Or in the email via SNS. ![Gmail](Gmail.png)
+![Cloud Watch2](CloudWatch2.png)
+
+Or in the email via SNS: ![Gmail](Gmail.png)
 
