@@ -1,8 +1,9 @@
 # CloudEventProcessor
 Python VS Code system that processes files in S3, logs events in DynamoDB, and sends notifications via SNS. Integrates AWS Lambda, CloudWatch, and EC2.
 
-Files are uploaded to S3 from Python with VS Code.
-The lambda is coded so that every time a file is uploaded, it enters the DynamoDB database and creates an alert: ![DynamoDB](DynamoDB.png)
+Files are uploaded to S3 from Python with VS Code. [S3 Script](subir_s3.py) ![S3](S3.png)
+
+The lambda is coded so that every time a file is uploaded, it enters the DynamoDB database and creates an alert: [Lambda Script](lambda_function.py) ![DynamoDB](DynamoDB.png)
 
 That can be seen in CloudWatch: ![Cloud Watch1](CloudWatch1.png)
 
