@@ -12,6 +12,7 @@ That can be seen in CloudWatch: ![Cloud Watch1](CloudWatch1.png)
 Or in the email via SNS: ![Gmail](Gmail.png)
 
 An EC2 was configured to independently run the Python scripts that interact with S3 and view the files it contains: [EC2 Script](EC2.py) 
+-
 ![EC2](EC2.png)
 
 
